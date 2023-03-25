@@ -1,0 +1,381 @@
+
+
+#span1{
+    color: rgb(115, 48, 177);
+    font-size: xx-large;
+}
+#span2{
+    color: white;
+    font-size:xx-large;
+}
+ nav a:hover{
+    background-color:rgb(115, 48, 177) ;
+}
+#aboutme{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+ background: linear-gradient( to left top ,rgb(115, 48, 177),black);
+}
+.text {
+   padding-left: 5%;
+    width: 60%;
+    
+}
+ .text h1{
+    color: white;
+
+    font-family:'Courier New', Courier, monospace;
+}
+.text p{
+    color: white;
+   font-size: larger;
+   
+}
+.butt1{
+    border-radius: 15px;
+     height: 50px;
+     width: 150px;
+     font-size: small ;
+     color: rgb(115, 48, 177) ;
+     background-color: black;
+}
+
+.text a  :hover{
+  box-shadow: 5px 5px 20px white;
+}
+.pic1{
+    width: 40%;
+  
+    border: 5px dashed black;
+}
+#img1{
+    border: 15px dashed black;
+    width: 100%;
+    height: 600px;
+    opacity: 0.9;
+    object-fit: cover;
+
+}
+
+
+
+#section2{
+    text-align: center;
+    font-size: 5em;
+    color: rgb(115, 48, 177);
+    background:black;
+
+}
+.skills{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   background-color: white;
+   width: 100%;
+   height: 500px;
+   text-align: center;
+   column-gap: 20px;
+   margin-top: 1%;
+   
+}
+.skills :hover{
+    box-shadow: 10px 10px 20px black;
+}
+.sk{
+    background-color: black;
+    border:30px outset rgb(115, 48, 177); 
+    height: 500px;
+    color:rgb(115, 48, 177) ;
+}
+
+.sk img{
+width: 100%;
+height: 200px;
+}
+.sk  h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sk p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+#section3{
+    text-align: center;
+    font-size: 5em;
+    color: rgb(115, 48, 177);
+    background:black;
+
+}
+.qual{
+    width: 100%;
+    height: 505px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 1%;
+    
+}
+.qual :hover{
+     box-shadow: 10px 10px 10px rgb(139, 91, 139);
+}
+.qualf{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 5px;
+    border: 10px dotted black;
+}
+.img2{
+    width: 100%;
+}
+.qual1{
+border: 5px inset rgb(115, 48, 177);
+display: grid;
+grid-template-columns:40% 60%;
+}
+.qual1 img{
+    height: 250px;
+    width : 100%;
+}
+.qual3{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column: 1/3;
+    border: 5px inset rgb(115, 48, 177);
+   
+}
+.qual1 h3{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.qual1 p{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: purple;
+}
+.qual3 img{
+    width:100% ;
+    height: 200px;
+    object-fit: cover;
+}
+.qual3 h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .qual3 p{
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: purple;
+    }
+
+
+
+
+
+    #section4{
+        text-align: center;
+        font-size: 5em;
+        color: rgb(115, 48, 177);
+        background:black;
+        margin-top: 5%;
+    }
+
+    .services{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        height: 400px;
+        width: 100%;
+        column-gap: 2px;
+        margin-top: 1%;
+    }
+.ser1{
+  background: linear-gradient(to bottom ,purple ,black);
+    border-radius: 90px;
+    border: 10px inset black;
+    height:400px ;
+    color: white;
+    text-align: center;
+}
+.ser1 h3{
+    font-size: 2em;
+}
+.ser1 ul {
+    font-size: xx-large ;
+    font-weight: 100;
+}
+
+
+
+
+
+#section5{
+    text-align: center;
+    font-size: 5em;
+    color: rgb(115, 48, 177);
+    background:black;
+    margin-top: 2%;
+    width: 100%;
+}
+.expier{
+    display: grid;
+    height: 600px;
+width: 100%;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+margin-top: 1%;
+gap: 2px;
+}
+.expier :hover{
+    box-shadow: 5px 5px 1px 10px black;
+}
+.exp{
+    border: 5px dashed black;
+    grid-template-columns: auto;
+    grid-template-rows: 40% 60%;
+font-size: 2em;
+text-align: center;
+}
+.exp img{
+    width: 100%;
+ 
+}
+#exp1{
+    background-image: url(img/ex1.png);
+    background-size: cover;
+    padding-right: 2%;
+}
+#exp2{
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+#exp3{
+    background-image: url(img/ex3.jpg); 
+    background-size: cover;
+ color: white;
+  text-align: left;
+  font-size: 2em;
+}
+
+
+
+#section6{
+    text-align: center;
+    font-size: 5em;
+    color: rgb(115, 48, 177);
+    background:black;
+    margin-top: 2%;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 500px;
+    column-gap: 10px;
+}
+.cont{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(4,1fr);
+row-gap: 5px;
+    
+}
+.contact img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.cont1{
+    border: 20px outset purple;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+}
+
+
+
+
+footer{
+    margin-top: 10%;
+    background-color: black;
+    height: 100px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
+@media only screen and (max-width:933px){
+    .skills{
+        grid-template-columns: auto auto;
+        height: 1000px;
+    }
+ .qual{
+    grid-template-columns: auto;
+    height: 1000px;
+    
+ }
+ 
+ .services{
+    grid-template-columns: auto auto;
+    height: 1000px;
+ }
+ .contact{
+    grid-template-columns: auto;
+    height: 1000px;
+    width: 100%;
+ }
+ 
+
+ 
+}
+@media only screen and (max-width:541px){
+   #aboutme{
+   display: flexbox;
+    height: 1000px;
+    justify-content: center;
+   }
+   .pic1  {
+    width: 100%;
+   }
+.skills{
+    grid-template-columns: 1fr;
+    height: 1500px;
+}
+
+.qual{
+    height: 2000px;
+}
+.qualf{
+   grid-template-columns: 1fr;
+   
+}
+ 
+ .services{
+    grid-template-columns: auto;
+    height: 1200px;
+ }
+ .expier{
+    grid-template-columns: auto;
+    height: 1500px;
+ }
+ .exp{
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+ }
+
+.contact{
+    height: 1500px;
+}
+
+
+footer{
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+}
+}
