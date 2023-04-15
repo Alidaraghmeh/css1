@@ -1,0 +1,47 @@
+
+[  {    "question": "what is the definition of time complexity:",  
+  "options": [      "the number of operations an algorithm performs to complete its task",      "the total amount of memory space used by an algorithm/program, including the space of input values for execution",      "one of the sorting algorithms used to arrange a list of elements in order",      "a basic algorithm for arranging a string of numbers or other elements in the correct order"    ],
+    "correct": "the number of operations an algorithm performs to complete its task"
+  },
+  {
+    "question": "Time complexity of bubble sort is:",
+    "options": [
+      "O(n2)",
+      "O(logn)",
+      "O(n!)",
+      "O(n)"
+    ],
+    "correct": "O(n2)"
+  },
+  {
+    "question": "Time complexity of heap sort is:",
+    "options": [
+      "O(n2)",
+      "O(logn)",
+      "O(nlog n)",
+      "O(n)"
+    ],
+    "correct": "O(nlog n)"
+  },
+  {
+    "question": "Space complexity of quick sort is:",
+    "options": [
+      "O(n2)",
+      "O(logn)",
+      "O(nlog n)",
+      "O(n)"
+    ],
+    "correct": "O(logn) "
+  },
+  {
+    "question": "Space complexity of merge sort is:",
+    "options": [
+      "O(n2)",
+      "O(logn)",
+      "O(nlog n)",
+      "O(n)"
+    ],
+    "correct": "O(n)"
+  }
+]
+
